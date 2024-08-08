@@ -1,0 +1,12 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 80px;
+
+    .navList {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+    }
+}
