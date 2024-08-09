@@ -1,10 +1,9 @@
-import '../sass/style.css';
 
+import './home.scss';
+import Banner from '../../components/banner/banner'
 function Home() {
     return <div className='home'>
-                <div className='introduction'>
-                    <p>Chez vous, partout et ailleurs</p>
-                </div>
+                <Banner />
                 <div className='locations-list'>
                     <div className='location'>
                         <h3>Titre de la location</h3>

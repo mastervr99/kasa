@@ -1,5 +1,5 @@
-import '../sass/style.css';
-import LOGO from '../assets/images/LOGO.png';
+import LOGO from '../../assets/images/LOGO.png';
+import './header.scss';
 
 function Header() {
     return <div className='header'>

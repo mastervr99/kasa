@@ -1,9 +1,8 @@
 import React from 'react';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import Home from './pages/Home';
+import Header from './layout/header/header';
+import Footer from './layout/footer/footer';
+import Home from './pages/home/home';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import './sass/style.css';
 
 function App() {
     return (
