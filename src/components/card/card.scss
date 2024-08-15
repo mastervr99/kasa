@@ -1,0 +1,15 @@
+.card {
+    position: relative;
+    background-size: cover;
+    background-position: center;    
+    color: white;
+    width: 21%;
+    height: 340px;
+    border-radius: 10px;
+
+    h3 {
+        position: absolute;
+        left : 15px;
+        bottom: 0px;
+    }
+}
