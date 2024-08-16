@@ -1,12 +1,13 @@
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 40px 80px;
+    padding: 40px 100px;
+}
 
-    .navList {
-        list-style-type: none;
-        display: flex;
-        flex-direction: row;
-        gap: 50px;
+/****** Media queries ***********/
+
+@media (max-width: 607px) {
+    .header {
+        padding: 20px;
     }
 }

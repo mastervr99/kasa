@@ -8,4 +8,29 @@
     padding-top: 60px;
     padding-bottom: 10px;
     gap: 10px;
+
+    .copyright {
+        p {
+            font-size: 24px;
+            font-weight: 500;
+        }
+    }
+
+}
+
+/****** Media queries ***********/
+
+@media (max-width: 400px) {
+    .footer {
+        .copyright {
+            display: flex;
+            justify-content: center;
+            p {
+                font-size: 12px;
+                text-align: center;
+                width: 70%; 
+                word-break: break-word;
+            }
+        }
+    }
 }

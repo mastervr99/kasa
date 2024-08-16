@@ -1,8 +1,9 @@
+import './logo.scss'
 import LOGO from '../../assets/images/LOGO.png';
 
 function Logo() {
-    return  <div>
-                <a href='#'><img src={LOGO}/></a>
+    return  <div className='logo'>
+                <img src={LOGO}/>
             </div>
 }
 

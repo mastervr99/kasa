@@ -5,10 +5,10 @@ function Navigation() {
     return <div className='navbar'>
                 <ul className='navList'>
                     <NavLink to="/" end className={({ isActive }) => (isActive ? "nav-active" : "")}>
-                        <li>Accueil</li>
+                        <li>ACCUEIL</li>
                     </NavLink>
                     <NavLink to="/about" end className={({ isActive }) => (isActive ? "nav-active" : "")}>
-                        <li>A Propos</li>
+                        <li>A PROPOS</li>
                     </NavLink>
                 </ul>
             </div>

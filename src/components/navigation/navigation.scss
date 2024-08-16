@@ -1,11 +1,16 @@
 .navbar {
     .navList {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
 
         a {
             text-decoration: none;
-            padding: 10px;
             
             li {
+                font-weight: 500;
+                font-size: 24px;
                 transition: 0.2s;
                 cursor: pointer;
             }
@@ -16,7 +21,7 @@
 
             &::after {
                 content: "";
-                height: 4px;
+                height: 1px;
                 width: 0;
                 background: black;
                 position: absolute;
@@ -37,6 +42,24 @@
                     to {
                         width: 100%;
                     }
+                }
+            }
+        }
+    }
+}
+
+
+/****** Media queries ***********/
+
+@media (max-width: 607px) {
+
+    .navbar {
+        .navList {
+            gap: 30px;
+
+            a {        
+                li {
+                    font-size: 12px;
                 }
             }
         }
