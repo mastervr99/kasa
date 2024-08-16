@@ -1,0 +1,35 @@
+.collapse {
+    display: flex;
+    background-color: #FF6060;
+    color: white;
+    border-radius: 5px;
+    justify-content: space-between;
+    p {
+        font-weight: 700;
+        font-size: 24px;
+        margin: 5px 10px;
+        display: flex;
+        align-items: center;
+    }
+
+    span {
+        margin: 5px 10px;
+        font-size: 30px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 789px) {
+
+    .collapse {
+
+        p {
+            font-size: 13px;
+        }
+    
+        span {
+            margin: 0 8px;
+            font-size: 20px;
+        }
+    }
+}
