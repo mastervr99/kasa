@@ -4,8 +4,8 @@ function Error_Page() {
     return <div>
                 <main className='error_page'>
                     <h2>404</h2>
-                    <p>Oups! La page que vous demander n'existe pas</p>
-                    <a><p>Retourner sur la page d'accueil</p></a>
+                    <p className='error_message'>Oups! La page que vous demander n'existe pas.</p>
+                    <a className='return_link'><p>Retourner sur la page d'accueil</p></a>
                 </main>
            </div>
 }
