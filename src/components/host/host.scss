@@ -1,0 +1,21 @@
+.host {
+    display: flex;
+    justify-content: end;
+
+    p {
+        font-weight: 500;
+        font-size: 18px;
+        color: #FF6060;
+        width: 45%; 
+        word-break: break-word;
+        text-align: end;
+    }
+
+    img {
+        border-radius: 50%;
+        width: 64px;
+        height: 64px;
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+}
