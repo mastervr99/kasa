@@ -1,0 +1,16 @@
+.tag {
+    height: 25px;
+    border-radius: 10px;
+    background-color: #FF6060;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+
+    p {
+        font-weight: 700;
+        font-size: 14px;
+    }
+}
