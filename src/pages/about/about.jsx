@@ -7,7 +7,7 @@ import Collapse from '../../components/collapse/collapse';
 
 function About() {
 
-    const fiabily_text = "Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont confirmes aux logements, et toutes les informations sont régulièrement vérifiées par nos équipes.";
+    const fiability_text = "Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont confirmes aux logements, et toutes les informations sont régulièrement vérifiées par nos équipes.";
 
     const respect_text = "La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de pertubation du voisinage entraînera une exlusion de notre plateforme.";
 
@@ -19,10 +19,10 @@ function About() {
                <Banner backgroundImage={backgroundImage} />
                 <main className='collapses'>
                     <ul className='collapse_list'>
-                        <li><Collapse title="Fiabilité" text={ fiabily_text}/></li>
-                        <li><Collapse title="Respect" text={respect_text}/></li>
-                        <li><Collapse title="Service" text={service_text}/></li>
-                        <li><Collapse title="Sécurité" text={security_text}/></li>
+                        <li><Collapse title="Fiabilité"><p>{ fiability_text}</p></Collapse></li>
+                        <li><Collapse title="Respect"><p>{ respect_text}</p></Collapse></li>
+                        <li><Collapse title="Service"><p>{ service_text}</p></Collapse></li>
+                        <li><Collapse title="Sécurité"><p>{ security_text}</p></Collapse></li>
                     </ul>
                 </main>
            </div>
