@@ -18,6 +18,12 @@
 
 }
 
+.footer-absolute {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
 /****** Media queries ***********/
 
 @media (max-width: 400px) {
