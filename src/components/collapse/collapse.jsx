@@ -1,7 +1,7 @@
 import './collapse.scss';
 import { useState } from 'react';
 
-function Collapse({ title, text }) {
+function Collapse({ title, children }) {
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleCollapse = () => {
@@ -16,9 +16,9 @@ function Collapse({ title, text }) {
                     <i className="fa-solid fa-angle-up"></i>
                 </span>
             </div>
-            {isOpen && <div className='collapse_content'>
-                <p>{text}</p>    
-            </div>}
+            <div className={`collapse_content ${isOpen ? 'open' : ''}`}>
+                {children}    
+            </div>
         </div>
     );
 }
