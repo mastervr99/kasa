@@ -16,11 +16,11 @@ function Carrousel({pictures}) {
     return (
         <div className='carrousel'>
             {pictures.length > 1 && (
-                <button onClick={handlePrev} className='prev'><i class="fa-sharp fa-solid fa-chevron-left"></i></button>
+                <button onClick={handlePrev} className='prev'><i className="fa-sharp fa-solid fa-chevron-left"></i></button>
             )}
-            <img src={pictures[currentIndex]} alt={`Image ${currentIndex + 1}`} className='carrousel-image' />
+            <img src={pictures[currentIndex]} alt={`${currentIndex + 1}`} className='carrousel-image' />
             {pictures.length > 1 && (
-                <button onClick={handleNext} className='next'><i class="fa-sharp fa-solid fa-chevron-right"></i></button>
+                <button onClick={handleNext} className='next'><i className="fa-sharp fa-solid fa-chevron-right"></i></button>
             )}
 
             {pictures.length > 1 && (

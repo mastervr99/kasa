@@ -6,9 +6,9 @@ function Rating({ rating }) {
 
     for (let i = 0; i < totalStars; i++) {
         if (i < rating) {
-            stars.push(<span key={i} className='red_star'><i class="fa-solid fa-star"></i></span>);
+            stars.push(<span key={i} className='red_star'><i className="fa-solid fa-star"></i></span>);
         } else {
-            stars.push(<span key={i} className='grey_star'><i class="fa-solid fa-star"></i></span>);
+            stars.push(<span key={i} className='grey_star'><i className="fa-solid fa-star"></i></span>);
         }
     }
 
