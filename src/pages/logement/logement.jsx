@@ -41,13 +41,13 @@ function Logement() {
                     <li><Collapse title="Description"><p>{logement.description}</p></Collapse></li>
                     <li>
                         <Collapse title="Equipements">
-                            <p>
+                            <div>
                                 <ul>
                                 {logement.equipments.map((equipment, index) => (
                                     <li key={index}>{equipment}</li>
                                 ))}
                                 </ul>
-                            </p>
+                            </div>
                         </Collapse>
                     </li>
                 </ul>

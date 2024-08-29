@@ -47,9 +47,17 @@
             transform: translateY(-10px);
             transition: opacity 0.8s ease-out, transform 0.8s ease-out;
 
+        }
+
+        div {
+            opacity: 0;
+            transform: translateY(-10px);
+            transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+            margin: 18px  0;
             
             ul {
                 list-style-type: none;
+                padding-left: 0;
             }
         }
 
@@ -58,6 +66,11 @@
     .collapse_content.open {
         max-height: 200px;
         p {
+            opacity: 1;
+            transform: translateY(0px);
+        }
+
+        div {
             opacity: 1;
             transform: translateY(0px);
 
