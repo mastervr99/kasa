@@ -27,7 +27,7 @@ function Logement() {
                     </div>
                     <div className='tags_list'>
                         {logement.tags.map((tag) => (
-                                <Tag tag={tag} />
+                                <Tag key={tag} tag={tag} />
                             ))}
                     </div>
                 </div>
@@ -43,8 +43,8 @@ function Logement() {
                         <Collapse title="Equipements">
                             <p>
                                 <ul>
-                                {logement.equipments.map((equipment) => (
-                                    <li>{equipment}</li>
+                                {logement.equipments.map((equipment, index) => (
+                                    <li key={index}>{equipment}</li>
                                 ))}
                                 </ul>
                             </p>

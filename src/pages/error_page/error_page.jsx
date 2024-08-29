@@ -5,7 +5,7 @@ function Error_Page() {
                 <main className='error_page'>
                     <h2>404</h2>
                     <p className='error_message'>Oups! La page que vous demander n'existe pas.</p>
-                    <a className='return_link'><p>Retourner sur la page d'accueil</p></a>
+                    <a className='return_link' href='/'><p>Retourner sur la page d'accueil</p></a>
                 </main>
            </div>
 }
